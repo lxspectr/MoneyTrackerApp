@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Log In</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+</head>
+<body>
+<section id="logPage">
+    <div class="logTop">
+        <img src="logo/logMain.png" alt=""/>
+    </div>
+    <div class="form">
+            <div id="tabs">
+                <div class="tab" id="lo">LOGIN</div>
+                <div class="tab onClick" id="re">REGISTER</div>
+            </div>
+            <div id="logTab" class="tabContent">
+                <h1>Welcome back!</h1>
+                <label>Login</label>
+                <input type="text" id="login">
+                <button class="btn" id="butLog">Log In</button>
+            </div>
+            <div id="regTab" class="tabContent">
+                <h1>Welcome!</h1>
+                <label>Create Login</label>
+                <input type="text" id="loginReg">
+                <button class="btn" id="butReg">Log In</button>
+            </div>
+    </div>
+</section>
+<main>
+    <header>
+        <div>
+            <img src="logo/header_transparent.png" alt="" id="log"/>
+            <div id="logomenu" class="menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#accounts">Accounts</a></li>
+                <li><a href="#records">Records</a></li>
+            </ul>
+        </nav>
+        <div id="info">
+            <button class="btn add" id="addRec">+Record</button>
+            <div id="currUser">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <div id="aboutUser" class="aboutUser">
+                    <span id="userName"></span>
+                    <button class="btn" id="exit">EXIT</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="dashboard">
+        <div class="countsCont">
+            <div id="acc" class="accounts">
+
+            </div>
+            <div class="addAcc">
+                <i class="fa fa-plus-circle" aria-hidden="true"></i>
+            </div>
+            <div id="modalAccount" hidden>
+                <div id="mainModalAcc">
+                    <p>Enter account name</p>
+                    <input type="text" id="accountName">
+                    <div>
+                        <button class="btn save">ADD</button>
+                        <button class="btn close">CLOSE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="infocounts">
+
+        </div>
+    </section>
+    <section id="accounts">
+        <table class="table_sort">
+            <thead>
+            <tr>
+                <th class="del">ID</th>
+                <th>Currency</th>
+                <th>Current balance</th>
+                <th>Count of transactions</th>
+                <th class="del">Delete</th>
+
+            </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </section>
+    <section id="records">
+        <div>
+            select an account to display transactions<br>
+            <select id="countForRecords"></select>
+        </div>
+        <div>
+            <table class="table_sort">
+                <thead>
+                <tr>
+                    <th class="del">ID</th>
+                    <th>Count</th>
+                    <th>Category</th>
+                    <th>Type</th>
+                    <th class="del">Delete</th>
+                </tr>
+                </thead>
+                <tbody id="tbodyTrans">
+
+                </tbody>
+            </table>
+        </div>
+    </section>
+</main>
+<div id="wrapper">
+    <section id="modal">
+        <div id="forCheckbox">
+            <input type="radio" name="trans" value="income">
+            <input type="radio" name="trans" value="expense">
+        </div>
+        <div id="chooseCount">
+            CHOOSE COUNT<br>
+            <select id="chCount">
+
+            </select>
+        </div>
+        <div>CHOOSE CATEGORY<br>
+            <div id="ch">
+                <select id="chooseCat">
+
+                </select>
+                <span><i class="fa fa-plus" aria-hidden="true" id="addCategory"></i></span>
+                <label id="wAddCat">
+                    <span>ADD CATEGORY</span>
+                    <input type="text" id="addedCategory">
+                    <button class="btn" id="saveCat">SAVE</button>
+                    <button class="btn" id="cancelCat">CANCEL</button>
+                </label>
+            </div>
+        </div>
+        <div>
+            AMOUNT<br>
+            <input type="number" id="amount">
+        </div>
+        <i class="fa fa-times" aria-hidden="true" id="closeModal"></i>
+        <button class="btn" id="addRecord">ADD RECORD</button>
+    </section>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

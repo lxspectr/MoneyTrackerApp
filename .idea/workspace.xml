@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8b4bd135-bee0-4295-b404-cba0a16b63c2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ljVrMVMTzJ7ouThYe7fe3x8auM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Dropbox\MoneyTrackerApp" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b4bd135-bee0-4295-b404-cba0a16b63c2" name="Default Changelist" comment="" />
+      <created>1608110684545</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608110684545</updated>
+      <workItem from="1608110686258" duration="4129000" />
+      <workItem from="1608204825415" duration="2893000" />
+      <workItem from="1608222826782" duration="5061000" />
+      <workItem from="1608400584871" duration="33000" />
+      <workItem from="1610215142754" duration="1877000" />
+      <workItem from="1610445400067" duration="1000" />
+      <workItem from="1610551247063" duration="5107000" />
+      <workItem from="1610783669458" duration="14101000" />
+      <workItem from="1611042378840" duration="6484000" />
+      <workItem from="1611325403523" duration="7000" />
+      <workItem from="1612365362519" duration="4784000" />
+      <workItem from="1612437839015" duration="2059000" />
+      <workItem from="1612522477126" duration="5436000" />
+      <workItem from="1612714335253" duration="5873000" />
+      <workItem from="1612775183237" duration="9883000" />
+      <workItem from="1612804910765" duration="9072000" />
+      <workItem from="1612885138567" duration="358000" />
+      <workItem from="1612887759585" duration="4976000" />
+      <workItem from="1613114248745" duration="9755000" />
+      <workItem from="1613124843063" duration="5602000" />
+      <workItem from="1613142590956" duration="404000" />
+      <workItem from="1613143040041" duration="23000" />
+      <workItem from="1613143493338" duration="11054000" />
+      <workItem from="1613198334503" duration="8318000" />
+      <workItem from="1613239781350" duration="6267000" />
+      <workItem from="1613289982593" duration="24174000" />
+      <workItem from="1613374124125" duration="1732000" />
+      <workItem from="1613415249466" duration="1102000" />
+      <workItem from="1613421085378" duration="2267000" />
+      <workItem from="1613466542013" duration="5016000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1612718288901">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1612718288901" />
+    <state x="438" y="165" key="run.anything.popup" timestamp="1612367184727">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="438" y="165" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1612367184727" />
+    <state x="616" y="235" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610889244291" />
+  </component>
+</project>
